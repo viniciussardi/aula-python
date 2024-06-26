@@ -1,8 +1,9 @@
-print("digite dois valores. o primeiro sera elevado ao segundo.")
+print("Bem vindo a simulador de media de altura infantil.\ndigite a altura de 3 crianças para ser calculado.")
 
-num1 = int(input("digite um numero"))
-num2 = int(input("digite um numero"))
+FirstHeight = float(input("Digite a altura da primeira criança"))
+SecondHeight = float(input("Digite a altura da segunda criança"))
+ThirdHeight = float(input("Digite a altura da terceira criança"))
 
-resultado = num1 ** num2
+Media = (FirstHeight + SecondHeight + ThirdHeight)/3
 
-print(f"o resultado da sua potencia é {resultado}")
+print(f"A media de altura dessas criancas é de {Media}")
