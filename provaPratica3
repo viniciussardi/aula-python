@@ -1,8 +1,10 @@
 num1 = int(input("digite um numero"))
 num2 = int(input("digite um numero"))
-num3 = int(input("digite um numero"))
-num4 = int(input("digite um numero"))
+sobra1= num1 % num2
+sobra2= num2 % num1
 
-resultado = num1 + num2 + num3 + num4
+if num1 > num2:
+  print(f"A sobra da sua divisão é {sobra1}")
 
-print(f"A soma deu seu numeros deu um total de  {resultado}")
+else:
+  print(f"A sobra da sua divisão é {sobra2}")
