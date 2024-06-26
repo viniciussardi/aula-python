@@ -14,3 +14,6 @@ elif num3 > num1 and num3 > num2 and num3 > num4:
 
 elif num4 > num1 and num4 > num2 and num4 > num3:
     print(f"{num4} é o maior numero digitado")
+
+else:
+    print("1 ou mais numeros são iguais ao maior ")
