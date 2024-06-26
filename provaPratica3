@@ -1,7 +1,11 @@
-Numero = int(input("Digite um numero"))
+num1 = int(input("digite um numero"))
+num2 = int(input("digite um numero"))
 
-if Numero <= 37 and Numero >= 25 :
-    print("Seu numero esta dentro do intervalo de 25 a 37")
+if num1 % num2 == 0:
+    print(f"{num1} é multiplo de {num2}")
 
+elif num2 % num1 == 0:
+    print(f"{num2} é multiplo de {num1}")
+    
 else:
-    print("Seu numero não esta dentro do intervalo")
+    print("os numeros não são multiplos")
