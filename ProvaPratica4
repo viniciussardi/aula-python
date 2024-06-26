@@ -1,0 +1,8 @@
+print("digite dois valores. o primeiro sera elevado ao segundo.")
+
+num1 = int(input("digite um numero"))
+num2 = int(input("digite um numero"))
+
+resultado = num1 ** num2
+
+print(f"o resultado da sua potencia é {resultado}")

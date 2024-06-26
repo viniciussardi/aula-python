@@ -1,8 +1,0 @@
-num1 = int(input("Digite um numero"))
-num2 = int(input("Digite um numero"))
-
-if num1 - num2 == 0:
-    print("Seus numeros são iguais")
-
-else:
-    print("Seus numeros não são iguais")
