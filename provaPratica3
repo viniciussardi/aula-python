@@ -1,8 +1,7 @@
-num1 = int(input("Digite um numero"))
-num2 = int(input("Digite um numero"))
+Numero = int(input("Digite um numero"))
 
-if num1 - num2 == 0:
-    print("Seus numeros são iguais")
+if Numero <= 37 and Numero >= 25 :
+    print("Seu numero esta dentro do intervalo de 25 a 37")
 
 else:
-    print("Seus numeros não são iguais")
+    print("Seu numero não esta dentro do intervalo")
