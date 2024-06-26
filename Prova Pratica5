@@ -1,0 +1,10 @@
+num1 = int(input("digite um numero"))
+num2 = int(input("digite um numero"))
+sobra1= num1 % num2
+sobra2= num2 % num1
+
+if num1 > num2:
+  print(f"A sobra da sua divisão é {sobra1}")
+
+else:
+  print(f"A sobra da sua divisão é {sobra2}")
