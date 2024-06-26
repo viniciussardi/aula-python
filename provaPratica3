@@ -1,10 +1,8 @@
+print("digite dois valores. o primeiro sera elevado ao segundo.")
+
 num1 = int(input("digite um numero"))
 num2 = int(input("digite um numero"))
-sobra1= num1 % num2
-sobra2= num2 % num1
 
-if num1 > num2:
-  print(f"A sobra da sua divisão é {sobra1}")
+resultado = num1 ** num2
 
-else:
-  print(f"A sobra da sua divisão é {sobra2}")
+print(f"o resultado da sua potencia é {resultado}")
