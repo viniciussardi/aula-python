@@ -18,7 +18,7 @@ if formpgmt == 1:
         print("O valor dado não é suficiente para a compra! ")
 elif formpgmt == 2:
     limite = float(input("qual seu limite?"))
-    if (limite > preco):
+    if (limite >= preco):
         op = input("Deseja parcelar sua compra? S - sim ou N - nao ")
         if(op == 'N'):
             transacao = int(input("Digite sua senha"))
@@ -49,6 +49,8 @@ elif formpgmt == 3:
         print("Senha incorreta!")
 elif formpgmt == 4:
     print("Obrigado por comprar com a gente! Volte sempre.")
+else:
+    print("Digite um valor valido!")
 
 
     
